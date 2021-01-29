@@ -9,3 +9,39 @@
   height: 350px;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
 }
+
+.card-product {
+  display: flex;
+  background: white;
+  align-items: center;
+}
+
+.card-product img {
+  height: 150px;
+  margin-right: 16px;
+}
+
+.card-product h2 {
+  margin: 0;
+}
+
+.card-product p {
+  margin: 0;
+}
+
+.card-trip {
+  background: white;
+}
+
+.card-trip-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.card-trip img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
